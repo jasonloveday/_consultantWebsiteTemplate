@@ -1,0 +1,81 @@
+/* File imports */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato';
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mobile {
+    display: none;
+}
+
+.jumbotron {
+    height: 100%;
+    background-color: none;
+    opacity: 1;
+    border-radius: unset;
+}
+
+.banner {
+    background-image: URL("../img/banner-img.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.two-columns {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials {
+    font-size: 16px;
+    /* margin-top: 60px; */
+    /* margin-bottom: 20px; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.socials a {
+    font-size: 1.3rem;
+    /* padding-left: 4rem; */
+    /* padding-right: 4rem; */
+    /* padding-bottom: 30px; */
+}
+
+.socials .row {
+    justify-content: space-evenly;
+}
+
+.align-middle {
+    align-items: center;
+}
+
+@media screen and (max-width: 990px) {}
+
+@media screen and (max-width: 720px) {}
+
+@media screen and (max-width: 480px) {
+    .jumbotron {
+        margin-bottom: unset;
+    }
+    .mobile {
+        display: flex;
+    }
+    .desktop {
+        display: none;
+    }
+}
