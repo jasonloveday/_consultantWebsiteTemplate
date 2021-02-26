@@ -31,7 +31,7 @@ img {
 .banner {
     background-image: URL("../img/banner-img.jpg");
     background-size: cover;
-    background-position: center;
+    background-position-y: 50%;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
